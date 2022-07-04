@@ -1,4 +1,26 @@
+
+header .navigation{
+    color: $couleur-font;
+    background-color: $couleur-header;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+
+    &-burger-button{
+        display: flex;
+    }
+}
 header{
-    background-color: blue;
-    height: 100px;
+
+    height: 600px;
+    
+}
+.img{
+    height: 700px;
+    width: 100%;
+    background:url(img/burger-photo-by-TheoCrazzolara.jpg) rgba(0, 0, 0, 0.37);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
