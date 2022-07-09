@@ -5,7 +5,8 @@
 
 body {
   height: 2000px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: hidden;
 }
 
 * {
@@ -17,13 +18,13 @@ header .navigation {
   color: white;
   background-color: black;
   height: 80px;
-  width: 100%;
+  width: 101%;
   position: fixed;
 }
 
 header .navigation-burger-button {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .navigation-burger-button svg {
@@ -44,8 +45,8 @@ header {
 
 .img {
   height: 700px;
-  width: 100%;
-  background: url(img/burger-photo-by-TheoCrazzolara.jpg) rgba(0, 0, 0, 0.37);
+  width: 101%;
+  background: url(img/burger-photo-by-TheoCrazzolara.jpg) rgba(0, 0, 0, 0.699);
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,10 +75,29 @@ header {
 }
 
 .menu a:hover {
-  color: red;
+  color: #c41b1b;
 }
 
 .menu a:active {
-  color: #d61212;
+  color: #c41b1b;
+}
+
+.text-image-header {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.text-image-header h3 {
+  color: #c41b1b;
+  width: 170px;
+  border-bottom: 3px solid white;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 150px;
 }
 /*# sourceMappingURL=style.css.map */
