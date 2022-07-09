@@ -1,10 +1,11 @@
 .rotate {
-  transition: 1s;
+  transition: 0.5s;
   transform: rotate(90deg);
 }
 
 body {
   height: 2000px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 * {
@@ -27,8 +28,8 @@ header .navigation-burger-button {
 
 .navigation-burger-button svg {
   position: fixed;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: 17px;
+  margin-left: 20px;
 }
 
 .navigation-burger-button p {
@@ -49,5 +50,34 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.menu {
+  transition: 0.5s;
+  position: fixed;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  top: 80px;
+  left: -100%;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+.menu a:active {
+  color: #d61212;
 }
 /*# sourceMappingURL=style.css.map */
