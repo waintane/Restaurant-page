@@ -1,1 +1,1 @@
-console.log("yo mama");
+(()=>{let t={object:document.querySelector(".navigation-burger-button svg"),active:!1};t.object.addEventListener("click",(()=>{!1===t.active?(t.object.classList.add("rotate"),t.active=!0):(t.object.classList.remove("rotate"),t.active=!1)}))})();

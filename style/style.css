@@ -1,3 +1,8 @@
+.rotate {
+  transition: 1s;
+  transform: rotate(90deg);
+}
+
 body {
   height: 2000px;
 }
@@ -17,6 +22,19 @@ header .navigation {
 
 header .navigation-burger-button {
   display: flex;
+  font-size: 2rem;
+}
+
+.navigation-burger-button svg {
+  position: fixed;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.navigation-burger-button p {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
