@@ -13,7 +13,7 @@
             <a href="contact.php">Contact</a>
         </div>
         <div class="text-image-header">
-            <h3>Burgers délicieux</h3>
+            <h3 href="index.php">Burgers délicieux</h3>
             <p>Dit bonjour <br> aux meilleurs burgers de <br> l'île</p>
             <p>Accessible à Montréal à l'année longue</p>
         </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-$pageTitle = "Burger bottom"
+$pageTitle = "Burger bottom";
 ?>
 
 <html lang="fr-ca">
@@ -24,7 +24,20 @@ $pageTitle = "Burger bottom"
 
     <main>
         <section>
-            
+            <h3>Découvrez <br> les meilleurs burgers de l'île de montréal</h3>
+            <p>Burger bottom est apprécié de ca clientèle depuis 1970 et est la pour rester.</p>
+            <div class="container">
+                <h3 class="title">Menu</h3>
+                <div class="container-photo-menu"><img src="../style/img/hamburger-photo-by-Niekverkaan.jpg" alt=""></div>
+                <p>Preparez-vous pour une toute nouvelle experience fast food.</p>
+                <a class="section-button" href="menu.php">Voir le menu</a>
+            </div>
+            <div class="container">
+                <h3 class="title">Contact</h3>
+                <div class="container-photo-menu"><img src="../style/img/location-photo-by-Madun_Digital.jpg" alt=""></div>
+                <p>Si vous souhaitez venir ou nous contacter.</p>
+                <a class="section-button" href="contact.php">Les contacts</a>
+            </div>
         </section>
     </main>
 

@@ -3,8 +3,10 @@
 
 //variables
 @import "./variable/couleurs";
+@import "./variable/font";
 
-//composants 
+//composants
+@import "./composants/footer"; 
 @import "./composants/main";
 @import "./composants/body";
 @import "./composants/structure";
