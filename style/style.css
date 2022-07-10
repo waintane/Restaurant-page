@@ -3,6 +3,11 @@
   transform: rotate(90deg);
 }
 
+section {
+  height: 400px;
+  background-color: #c7b18c;
+}
+
 body {
   height: 2000px;
   font-family: 'Courier New', Courier, monospace;
@@ -29,7 +34,7 @@ header .navigation-burger-button {
 
 .navigation-burger-button svg {
   position: fixed;
-  margin-top: 17px;
+  margin-top: 20px;
   margin-left: 20px;
 }
 
