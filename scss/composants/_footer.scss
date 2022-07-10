@@ -1,5 +1,16 @@
 footer{
+    padding-top: 20px;
     width: 101%;
     height: 100px;
     background-color: $couleur-header;
+}
+footer a{
+    padding: 5px;
+    text-decoration: none;
+}
+footer div{
+    width: clamp(100px, 50%, 400px);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
 }

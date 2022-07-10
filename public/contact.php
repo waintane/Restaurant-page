@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-$pageTitle = "Contact"
+$pageTitle = "Contact";
 ?>
 
 <html lang="fr-ca">

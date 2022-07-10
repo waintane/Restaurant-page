@@ -1,9 +1,14 @@
 section{
-    background-color: $couleur-section;
+    background: url(img/paper-1074131_960_720.jpg) $couleur-section;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding:20px 20px 40px 20px; 
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 1.2rem;
 }
 section h3{
     color: $couleur-accent;
@@ -12,8 +17,8 @@ section h3{
     font-size: 1.5rem;
 }
 .container-photo-menu{
-    width: clamp(100px, 100%, 500px);
-    height: clamp(100px, 100%, 500px);
+    width: clamp(100px, 100%, 600px);
+    height: clamp(100px, 100%, 600px);
     margin: 0px auto 0px auto;
 }
 .container-photo-menu img{

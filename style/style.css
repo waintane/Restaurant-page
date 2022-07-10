@@ -4,17 +4,35 @@
 }
 
 footer {
+  padding-top: 20px;
   width: 101%;
   height: 100px;
   background-color: black;
 }
 
+footer a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+footer div {
+  width: clamp(100px, 50%, 400px);
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 section {
-  background-color: #c7b18c;
+  background: url(img/paper-1074131_960_720.jpg) #ffeed1;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 20px 20px 40px 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-size: 1.2rem;
 }
 
 section h3 {
@@ -25,8 +43,8 @@ section h3 {
 }
 
 .container-photo-menu {
-  width: clamp(100px, 100%, 500px);
-  height: clamp(100px, 100%, 500px);
+  width: clamp(100px, 100%, 600px);
+  height: clamp(100px, 100%, 600px);
   margin: 0px auto 0px auto;
 }
 
@@ -153,5 +171,9 @@ header {
   font-size: 2rem;
   font-weight: 900;
   margin-top: 150px;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
