@@ -7,6 +7,7 @@ footer {
   padding-top: 20px;
   width: 101%;
   height: 100px;
+  margin-top: 70px;
   background-color: black;
 }
 
@@ -33,6 +34,10 @@ section {
   flex-direction: column;
   gap: 20px;
   font-size: 1.2rem;
+}
+
+section:nth-of-type(2) {
+  background: white;
 }
 
 section h3 {
@@ -71,6 +76,38 @@ section h3 {
   padding-bottom: 20px;
 }
 
+.slider {
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.slide {
+  background: black;
+  height: 200px;
+  width: 100%;
+  padding: 20px 0px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide p {
+  font-size: 1.5rem;
+  color: white;
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  margin: 20px 10px;
+  padding-bottom: 20px;
+}
+
+.slide h5 {
+  font-size: 1.7rem;
+  color: #c41b1b;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
@@ -82,7 +119,7 @@ body {
 }
 
 header {
-  width: 103%;
+  width: 101%;
   font-family: "Courier New", Courier, monospace;
 }
 

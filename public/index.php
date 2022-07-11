@@ -39,6 +39,21 @@ $pageTitle = "Burger bottom";
                 <a class="section-button" href="contact.php">Les contacts</a>
             </div>
         </section>
+        <section>
+            <h3>Évaluation des clients</h3>
+            <button id="gauche"><</button>
+            <button id="droit">></button>
+            <div class="slider">
+                <div class="slide">
+                    <h5>5/5</h5>
+                    <p>Magnifique, l'ambiance est excellente et la bouffe est délicieuse.</p>
+                </div>
+                <div class="slide">
+                    <h5>Meilleur burger que j'ai mangé</h5>
+                    <p>Wow, cet endroit est le real deal! Je n'avais pas mangé comme ca depuis longtemps.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Appelle le footer.php -->

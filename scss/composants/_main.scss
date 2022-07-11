@@ -10,6 +10,9 @@ section{
     gap: 20px;
     font-size: 1.2rem;
 }
+section:nth-of-type(2){
+    background: white;
+}
 section h3{
     color: $couleur-accent;
     font-family: $fontStylized;
@@ -40,3 +43,34 @@ section h3{
 .container p{
     padding-bottom: 20px;
 }
+.slider {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    /* overflow: hidden; */
+  }
+  
+  .slide {
+    background: $couleur-header;
+    height: 200px;
+    width: 100%;
+    padding: 20px 0px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  .slide p {
+    font-size: 1.5rem;
+    color: $couleur-font;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    margin: 20px 10px;
+    padding-bottom: 20px;
+  }  
+  .slide h5 {
+
+    font-size: 1.7rem;
+    color: $couleur-accent;
+
+  }  
