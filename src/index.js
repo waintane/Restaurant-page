@@ -1,3 +1,5 @@
+import { changement } from './carousel';
+
 //declaration
 let burgerButton ={
     object : document.querySelector(".navigation-burger-button svg"),
@@ -7,6 +9,7 @@ let menuBurger = {
     object : document.querySelector(".menu"),
 }
 
+setInterval(changement, 2000);
 
 burgerButton.object.addEventListener("click", () => {
     if(burgerButton.active === false){
@@ -19,4 +22,9 @@ burgerButton.object.addEventListener("click", () => {
         menuBurger.object.setAttribute('style', 'left: -100%');
         burgerButton.active = false;
     }
-})
+});
+
+// // loop through slides and set each slides translateX property to index * 100% 
+// slides.forEach((slide, base) => {
+//     //slide.style.transform = `translateX(${base * 100}%)`;
+//   });
