@@ -52,6 +52,14 @@ $pageTitle = "Burger bottom";
                     <h5>Meilleur burger que j'ai mangé</h5>
                     <p>Wow, cet endroit est le real deal! Je n'avais pas mangé comme ca depuis longtemps.</p>
                 </div>
+                <div class="slide">
+                    <h5>My man</h5>
+                    <p>Wow, cet endroit est le real deal! Je n'avais pas mangé comme ca depuis longtemps.</p>
+                </div>
+                <div class="slide">
+                    <h5>4/5</h5>
+                    <p>Pretty damn good</p>
+                </div>
             </div>
         </section>
     </main>

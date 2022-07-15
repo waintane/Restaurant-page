@@ -9,7 +9,7 @@ let menuBurger = {
     object : document.querySelector(".menu"),
 }
 
-setInterval(changement, 2000);
+setInterval(changement, 4000);
 
 burgerButton.object.addEventListener("click", () => {
     if(burgerButton.active === false){
