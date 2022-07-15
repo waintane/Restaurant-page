@@ -50,10 +50,11 @@ header{
     gap: 10px;
     flex-direction: column;
     top: 80px;
-    left: -100%;
+    left: -110%;
     background-color: $couleur-header;
     height: 200px;
     width: 100vw;
+    z-index: 100;
 }
 
 .menu a{

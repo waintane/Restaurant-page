@@ -41,8 +41,6 @@ $pageTitle = "Burger bottom";
         </section>
         <section>
             <h3>Évaluation des clients</h3>
-            <button id="gauche"><</button>
-            <button id="droit">></button>
             <div class="slider">
                 <div class="slide">
                     <h5>5/5</h5>
@@ -60,6 +58,17 @@ $pageTitle = "Burger bottom";
                     <h5>4/5</h5>
                     <p>Pretty damn good</p>
                 </div>
+            </div>
+        </section>
+        <section>
+            <h3>Gallerie photo</h3>
+            <div class="gallerie">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </section>
     </main>

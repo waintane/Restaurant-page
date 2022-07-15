@@ -6,7 +6,7 @@ let preSelection;
 
 function changement(){
     if(selection > 0){
-        slides[preSelection].setAttribute('style', 'z-index: 1');
+        slides[preSelection].setAttribute('style', 'z-index:1');
     }
     slides[selection].setAttribute('style', 'z-index: 10');
 

@@ -19,7 +19,7 @@ burgerButton.object.addEventListener("click", () => {
     }
     else{
         burgerButton.object.classList.remove("rotate");
-        menuBurger.object.setAttribute('style', 'left: -100%');
+        menuBurger.object.setAttribute('style', 'left: -110%');
         burgerButton.active = false;
     }
 });
