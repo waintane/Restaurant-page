@@ -14,6 +14,9 @@ section:nth-of-type(2){
     background: $couleur-header;
     padding-bottom: 100px;
 }
+section:nth-of-type(2) h3{
+    text-align: center;
+}
 section h3{
     color: $couleur-accent;
     font-family: $fontStylized;
@@ -35,6 +38,7 @@ section h3{
     font-size: 1.8rem;
 }
 .section-button{
+    text-align: center;
     text-decoration: none;
     color: $couleur-font;
     background-color: $couleur-accent;
@@ -53,7 +57,7 @@ section h3{
     /* overflow: hidden; */
   }
   
-  .slide {
+.slide {
     background: $couleur-header;
     height: 200px;
     width: 100%;
@@ -61,7 +65,7 @@ section h3{
     position: absolute;
     transition: 0.5s;
   }
-  .slide p {
+.slide p {
     font-size: 1.5rem;
     color: $couleur-font;
     width: 95%;
@@ -70,18 +74,19 @@ section h3{
     margin: 20px 10px;
     padding-bottom: 20px;
   }  
-  .slide h5 {
+.slide h5 {
 
     font-size: 1.7rem;
     color: $couleur-accent;
 
   }  
-  .gallerie{
+.gallerie{
       display: grid;
       grid-template-columns: 1fr 1fr;
+      border: 3px solid black;
       gap: 2px;
   }
-  .gallerie div{
+.gallerie img{
 
     width: 100%;
     height: 150px;

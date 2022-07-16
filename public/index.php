@@ -63,13 +63,12 @@ $pageTitle = "Burger bottom";
         <section>
             <h3>Gallerie photo</h3>
             <div class="gallerie">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
+                <div><img src="../style/img/burger-photo-by-TheoCrazzolara.jpg" alt=""></div>
+                <div><img src="../style/img/fires-photo-by-Pexels.jpg" alt=""></div>
+                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
             </div>
+            <a class="section-button" href="#">Gallerie</a>
         </section>
     </main>
 
