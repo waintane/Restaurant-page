@@ -41,6 +41,18 @@ $pageTitle = "Burger bottom";
                 </div>
             </div>
         </section>
+
+        <section>
+            <h3>Gallerie photo</h3>
+            <div class="gallerie">
+                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
+                <div><img src="../style/img/burger-photo-by-TheoCrazzolara.jpg" alt=""></div>
+                <div><img src="../style/img/fires-photo-by-Pexels.jpg" alt=""></div>
+                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
+            </div>
+            <a class="section-button" href="#">Gallerie</a>
+        </section>
+
         <section>
             <h3>Évaluation des clients</h3>
             <div class="slider">
@@ -61,16 +73,6 @@ $pageTitle = "Burger bottom";
                     <p>Pretty damn good</p>
                 </div>
             </div>
-        </section>
-        <section>
-            <h3>Gallerie photo</h3>
-            <div class="gallerie">
-                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
-                <div><img src="../style/img/burger-photo-by-TheoCrazzolara.jpg" alt=""></div>
-                <div><img src="../style/img/fires-photo-by-Pexels.jpg" alt=""></div>
-                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
-            </div>
-            <a class="section-button" href="#">Gallerie</a>
         </section>
     </main>
 

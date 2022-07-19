@@ -10,11 +10,14 @@ section{
     gap: 20px;
     font-size: 1.2rem;
 }
-section:nth-of-type(2){
+section:nth-of-type(3){
     background: $couleur-header;
     padding-bottom: 100px;
 }
-section:nth-of-type(2) h3{
+section:nth-of-type(2){
+    background: rgb(238, 237, 237);
+}
+section:nth-of-type(3) h3{
     text-align: center;
 }
 section h3{
@@ -81,15 +84,17 @@ section h3{
 
   }  
 .gallerie{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      border: 3px solid black;
-      gap: 2px;
+    width: clamp(240px, 100%, 900px);
+    height: clamp(120px, 61vw, 570px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid black;
+    gap: 2px;
   }
 .gallerie img{
 
-    width: 100%;
-    height: clamp(150px, 30vw, 500px);
+    width: clamp(100px, 100%, 450px);
+    height: clamp(50px, 30vw, 280px);
     background: black;
   }
 .container{
@@ -112,7 +117,7 @@ section h3{
         height: clamp(150px, 35vw, 350px);
     }
     .container-photo-menu{
-        height: clamp(160px, 37vw, 370px);
+        height: clamp(250px, 36vw, 370px);
     }
     section{
         padding:20px 5vw 40px 5vw; 
@@ -120,5 +125,19 @@ section h3{
         flex-direction: column;
         gap: 20px;
         font-size: 1.4rem;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .container p{
+        width: clamp(170px, 100%, 500px);
+    }
+    .affichage-principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        height: clamp(200px, 60vw, 600px);
+        width: clamp(300px, 100% , 1200px);
+        margin: 0px auto;
     }
 }
