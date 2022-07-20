@@ -84,6 +84,7 @@ section h3{
 
   }  
 .gallerie{
+    margin-top: 20px;
     width: clamp(240px, 100%, 900px);
     height: clamp(120px, 61vw, 570px);
     display: grid;
@@ -99,6 +100,9 @@ section h3{
   }
 .container{
     padding-bottom: 20px;
+}
+section:nth-of-type(2) p{
+    padding: 20px 0px;
 }
 
 @media only screen and (min-width: 640px){
@@ -125,6 +129,9 @@ section h3{
         flex-direction: column;
         gap: 20px;
         font-size: 1.4rem;
+    }
+    .section-button{
+        margin-bottom: 10px
     }
 }
 @media only screen and (min-width: 1200px){
@@ -155,4 +162,9 @@ section h3{
     section{
         padding:20px 150px 40px; 
     }
+    section:nth-of-type(2) .container-gallerie{
+        display: grid;
+        grid-template-columns: 0.7fr 1fr;
+    }
+
 }

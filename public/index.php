@@ -47,13 +47,19 @@ $pageTitle = "Burger bottom";
 
         <section>
             <h3>Gallerie photo</h3>
-            <div class="gallerie">
-                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
-                <div><img src="../style/img/burger-photo-by-TheoCrazzolara.jpg" alt=""></div>
-                <div><img src="../style/img/fires-photo-by-Pexels.jpg" alt=""></div>
-                <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
+            <div class="container-gallerie">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                    <a class="section-button" href="#">Gallerie</a>    
+                </div>
+
+                <div class="gallerie">
+                    <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
+                    <div><img src="../style/img/burger-photo-by-TheoCrazzolara.jpg" alt=""></div>
+                    <div><img src="../style/img/fires-photo-by-Pexels.jpg" alt=""></div>
+                    <div><img src="../style/img/burger-photo-by-stevepb.jpg" alt=""></div>
+                </div>
             </div>
-            <a class="section-button" href="#">Gallerie</a>
         </section>
 
         <section>
