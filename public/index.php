@@ -25,7 +25,10 @@ $pageTitle = "Burger bottom";
     <main>
         <section>
             <h3>Découvrez <br> les meilleurs burgers de l'île de montréal</h3>
-            <p>Burger bottom est apprécié de sa clientèle depuis 1970 et est la pour rester.</p>
+            <p>Burger bottom est apprécié de sa clientèle depuis 1970 et est la pour rester.Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                ad minim veniam, quis nostrud exercitation ullamco
+            </p>
             <div class="affichage-principal">
                 <div class="container">
                     <h3 class="title">Menu</h3>
