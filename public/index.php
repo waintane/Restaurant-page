@@ -25,7 +25,7 @@ $pageTitle = "Burger bottom";
     <main>
         <section>
             <h3>Découvrez <br> les meilleurs burgers de l'île de montréal</h3>
-            <p>Burger bottom est apprécié de ca clientèle depuis 1970 et est la pour rester.</p>
+            <p>Burger bottom est apprécié de sa clientèle depuis 1970 et est la pour rester.</p>
             <div class="affichage-principal">
                 <div class="container">
                     <h3 class="title">Menu</h3>
@@ -70,7 +70,7 @@ $pageTitle = "Burger bottom";
                 </div>
                 <div class="slide">
                     <h5>4/5</h5>
-                    <p>Pretty damn good</p>
+                    <p>Those are some pretty damn good</p>
                 </div>
             </div>
         </section>

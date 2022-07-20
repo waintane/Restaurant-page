@@ -152,7 +152,6 @@ section h3 {
     gap: 30px;
     height: clamp(200px, 60vw, 600px);
     width: clamp(300px, 100%, 1200px);
-    margin: 0px auto;
   }
   .container-photo-menu img {
     border: 2px solid black;
@@ -161,6 +160,7 @@ section h3 {
   }
   .container-photo-menu {
     height: clamp(250px, 36vw, 370px);
+    margin: 0px;
   }
   section {
     padding: 20px 5vw 40px 5vw;
@@ -172,17 +172,32 @@ section h3 {
 }
 
 @media only screen and (min-width: 1200px) {
+  p {
+    padding: 0px;
+  }
+  section h3 {
+    padding: 0px;
+  }
   .container p {
+    margin-top: 10px;
     width: clamp(170px, 100%, 500px);
   }
-  .affichage-principal {
+  div.affichage-principal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 30px;
     height: clamp(200px, 60vw, 600px);
-    width: clamp(300px, 100%, 1200px);
-    margin: 0px auto;
+    width: clamp(300px, 100%, 100%);
+  }
+  .container-photo-menu {
+    width: clamp(170px, 100%, 500px);
+    height: clamp(150px, 35vw, 350px);
+  }
+  .container {
+    width: clamp(170px, 100%, 500px);
+  }
+  section {
+    padding: 20px 150px 40px;
   }
 }
 
@@ -337,6 +352,18 @@ a {
   }
   .menu a {
     margin-left: 0px;
+  }
+  .text-image-header {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .text-image-header {
+    padding-left: 130px;
   }
 }
 /*# sourceMappingURL=style.css.map */
